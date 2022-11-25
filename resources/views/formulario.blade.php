@@ -55,14 +55,24 @@
 <!-- features section -->
 <section class="pt-6 pb-7" id="Acerca de">
     <div class="container">
-        <form id="form" class="topBefore">
-		
-            <CENTER><input id="name" type="text" placeholder="Nombre" require><br></form>
-            <input id="email" type="text" 
-            placeholder="Correo" require><br>
-            <textarea id="message" type="text" placeholder="Mensaje"></textarea><br>
-            <input id="submit" type="submit" value="Enviar"></CENTER>
-          </form>
+        <form method='POST'>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea">Mensaje</label>
+                <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" required> Acepto la política de privacidad.
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
     </div>
 </section>
 
