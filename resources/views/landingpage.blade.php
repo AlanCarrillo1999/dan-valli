@@ -61,12 +61,6 @@
                             agenda tu cita aqui
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="/dashboard">
-                            <em data-feather="layout" width="18" height="18" class="mr-2"></em>
-                            iniciar sesion 
-                        </a>
-                    </li>
                 </ul>
             </div>
         </nav>
